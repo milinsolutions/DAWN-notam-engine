@@ -257,4 +257,10 @@ Stated deliberately — current boundaries, not oversights:
 
 **Repair is safer than rejection — but only up to a point.** Normalising damaged input increased coverage substantially. It also created the project's subtlest risk: a chain of text transformations can produce output that is valid-looking and wrong, passing every refusal check. Coverage gained through transformation needs a higher standard of validation than coverage gained through parsing.
 
-**Adoption is a trust problem before it is a technical one.** The reason the refusal model matters commercially is not correctness in the abstract — it is that one visible bad output would end the project. Designing for the failure mode that destroys confidence, rather than the one
+**Adoption is a trust problem before it is a technical one.** The reason the refusal model matters commercially is not correctness in the abstract — it is that one visible bad output would end the project. Designing for the failure mode that destroys confidence, rather than the one that is statistically most frequent, is what makes the system deployable at all.
+
+---
+
+*Source code withheld under client NDA. Solution design and reasoning documented here in full — available to discuss the approach in more depth.*
+
+*Part of the **[Milin Solutions](https://milinsolutions.com)** portfolio.*
